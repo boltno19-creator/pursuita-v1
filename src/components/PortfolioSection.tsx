@@ -78,21 +78,21 @@ const PortfolioSection = () => {
     {
       title: 'JUHHD Logo Branding',
       description: 'هوية بصرية راقية تعكس احترافية JUHHD وتفرد علامتها',
-      image: '/chefaa.png',
+      image: '/juhhd.png',
       category: 'هوية بصرية',
       projectLink: 'https://pursuita-agency.github.io/pursuita/assets/images/design/JUHHD_Logo_Branding.png'
     },
     {
       title: 'Ahmed El Sallab',
       description: 'تصاميم سوشيال ميديا تعكس فخامة وتميز أحمد السلاب',
-      image: '/designs/',
+      image: '/sallab.png',
       category: 'سوشيال ميديا',
       projectLink: 'https://pursuita-agency.github.io/pursuita/assets/images/design/Ahmed_El_Sallab%20Social_media_posts.png'
     },
     {
       title: 'Chefaa',
       description: 'تصميم يعكس هوية شفاء بروح عصرية واحترافية.',
-      image: 'https://pursuita-agency.github.io/pursuita/assets/images/design/Chefaa_Project.png',
+      image: '/chefaa.png',
       category: 'شعارات',
       projectLink: 'https://pursuita-agency.github.io/pursuita/assets/images/design/Chefaa_Project.png'
     }
