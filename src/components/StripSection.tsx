@@ -15,7 +15,7 @@ const StripSection = ({ title, subtitle, buttonText, className = '' }: StripSect
   return (
     <section className={`section-padding relative overflow-hidden ${className}`}>
       {/* Modern gradient background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary via-accent to-primary/80"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-[#6081ff] via-[#5070ee] to-[#6081ff]/80"></div>
       
       {/* Animated background elements */}
       <div className="absolute inset-0 opacity-10">
@@ -39,7 +39,7 @@ const StripSection = ({ title, subtitle, buttonText, className = '' }: StripSect
             <span>عرض خاص ولفترة محدودة</span>
           </div>
           
-          <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white max-w-5xl mx-auto leading-tight">
+          <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-white max-w-5xl mx-auto" style={{ lineHeight: '1.5' }}>
             {title}
           </h2>
           

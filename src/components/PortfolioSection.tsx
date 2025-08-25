@@ -79,19 +79,22 @@ const PortfolioSection = () => {
       title: 'JUHHD Logo Branding',
       description: 'هوية بصرية راقية تعكس احترافية JUHHD وتفرد علامتها',
       image: 'https://pursuita-agency.github.io/pursuita/assets/images/design/JUHHD_Logo_Branding.png',
-      category: 'هوية بصرية'
+      category: 'هوية بصرية',
+      projectLink: 'https://pursuita-agency.github.io/pursuita/assets/images/design/JUHHD_Logo_Branding.png'
     },
     {
       title: 'Ahmed El Sallab',
       description: 'تصاميم سوشيال ميديا تعكس فخامة وتميز أحمد السلاب',
       image: 'https://pursuita-agency.github.io/pursuita/assets/images/design/Ahmed_El_Sallab%20Social_media_posts.png',
-      category: 'سوشيال ميديا'
+      category: 'سوشيال ميديا',
+      projectLink: 'https://pursuita-agency.github.io/pursuita/assets/images/design/Ahmed_El_Sallab%20Social_media_posts.png'
     },
     {
       title: 'Chefaa',
       description: 'تصميم يعكس هوية شفاء بروح عصرية واحترافية.',
       image: 'https://pursuita-agency.github.io/pursuita/assets/images/design/Chefaa_Project.png',
-      category: 'شعارات'
+      category: 'شعارات',
+      projectLink: 'https://pursuita-agency.github.io/pursuita/assets/images/design/Chefaa_Project.png'
     }
   ];
 
@@ -160,10 +163,10 @@ const PortfolioSection = () => {
                   <div className="p-6 space-y-4">
                     <h3 className="text-center text-xl font-bold text-foreground">{website.title}</h3>
                     <p className="text-muted-foreground">{website.description}</p>
-                    <div className="flex justify-center">
+                    <div className="flex justify-end">
                       <span className="inline-block px-3 py-1 text-xs rounded-full" style={{
-                        backgroundColor: website.category.includes('متجر') || website.category.includes('عقاري') ? '#6181ff20' : '#fc7c5620',
-                        color: website.category.includes('متجر') || website.category.includes('عقاري') ? '#6181ff' : '#fc7c56'
+                        backgroundColor: '#6081ff20',
+                        color: '#6081ff'
                       }}>
                         {website.category}
                       </span>

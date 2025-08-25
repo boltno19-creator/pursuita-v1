@@ -52,21 +52,21 @@ const Footer = () => {
               <div className="flex gap-4">
                 <button
                   onClick={() => handleSocialClick('whatsapp')}
-                  className="bg-green-500 hover:bg-green-600 text-white p-3 rounded-full transition-colors duration-300"
+                  className="bg-[#6081ff] hover:bg-[#5070ee] text-white p-3 rounded-full transition-colors duration-300"
                   aria-label="واتساب"
                 >
                   <MessageCircle size={20} />
                 </button>
                 <button
                   onClick={() => handleSocialClick('facebook')}
-                  className="bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full transition-colors duration-300"
+                  className="bg-[#6081ff] hover:bg-[#5070ee] text-white p-3 rounded-full transition-colors duration-300"
                   aria-label="فيسبوك"
                 >
                   <Facebook size={20} />
                 </button>
                 <button
                   onClick={() => handleSocialClick('instagram')}
-                  className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white p-3 rounded-full transition-all duration-300"
+                  className="bg-[#6081ff] hover:bg-[#5070ee] text-white p-3 rounded-full transition-colors duration-300"
                   aria-label="انستجرام"
                 >
                   <Instagram size={20} />

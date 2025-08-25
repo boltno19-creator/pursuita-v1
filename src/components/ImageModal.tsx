@@ -10,6 +10,7 @@ interface ImageModalProps {
     image: string;
     description: string;
     category: string;
+    projectLink?: string;
   };
 }
 
@@ -20,6 +21,11 @@ const ImageModal = ({ isOpen, onClose, design }: ImageModalProps) => {
     setIsLoading(false);
   };
 
+  const handleProjectLinkClick = () => {
+    if (design.projectLink) {
+      window.open(design.projectLink, '_blank');
+    }
+  };
   return (
     <Modal open={isOpen} onOpenChange={onClose}>
       <ModalContent size="xl" className="p-0 max-h-[90vh] overflow-hidden">
@@ -53,6 +59,17 @@ const ImageModal = ({ isOpen, onClose, design }: ImageModalProps) => {
             <p className="text-muted-foreground mt-4 leading-relaxed">
               {design.description}
             </p>
+            
+            {design.projectLink && (
+              <div className="mt-6 flex justify-center">
+                <button
+                  onClick={handleProjectLinkClick}
+                  className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors duration-300"
+                >
+                  عرض المشروع كاملاً
+                </button>
+              </div>
+            )}
           </div>
         </div>
       </ModalContent>
