@@ -1,0 +1,19 @@
+/* Custom styles for Pursuita Arabic Landing Page */
+
+/* Remove default Vite styles */
+#root {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+}
+
+/* Ensure proper RTL support */
+[dir="rtl"] {
+  text-align: right;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
